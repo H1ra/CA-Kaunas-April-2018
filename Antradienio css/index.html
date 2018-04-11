@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Intro</title>
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Hi+Melody" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form>
+            <label for="firstname" class="lbl"></label>
+            <input type="text" name="firstname" id="firstname" class="txt-field" placeholder="First Name" />
+            <br>
+
+            <label for="lastname" class="lbl"></label>
+            <input type="text" name="lastname" id="lastname" class="txt-field" placeholder="Last Name" />
+            <br>
+
+            <label for="password" class="lbl"></label>
+            <input type="password" name="password" id="password" class="txt-field" placeholder="Password" />
+            <br>
+
+            <label for="confirm password" class="lbl"></label>
+            <input type="password" name="password" id="confirm password" class="txt-field" placeholder="Confirm Password" />
+            <br>
+
+            <label for="email" class="lbl"></label>
+            <input type="text" name="email" id="email" class="txt-field" placeholder="Email" />
+            <br>
+
+            <label for="city" class="lbl"></label>
+            <input type="text" name="city" id="city" class="txt-field" placeholder="City" />
+            <br>
+
+            <label for="age" class="lbl"></label>
+            <input type="text" name="age" id="age" class="txt-field" placeholder="Age" />
+            <br>
+
+            <label for="country" class="lbl"></label>
+            <select class="select-field"  id="country">
+                <option selected="selected" class="country">Country</option>
+                <option value="LT">Lithuania</option>
+                <option value="USA">United States of Murica</option>
+                <option value="LV">Latvia</option>
+                <option value="EE">Estonia</option>
+                <option value="RU">Mother Russia</option>
+                <option value="DK">Denmark</option>
+                <option value="PL">Poland</option>
+            </select>
+            <br>
+
+            <div class="form-line">
+                <input type="radio" id="r1" name="gender" value="M">
+                <label for="r1">Male</label>
+                <input type="radio" id="r2" name="gender" value="F">
+                <label for="r2">Female</label>
+                <input type="radio" id="r3" name="gender" value="AH">
+                <label for="r3">Apache Helicopter</label>
+            </div>
+
+            <div class="form-line">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe for newsletters</label>
+                <br>
+
+                <input type="checkbox" id="t_n_c" name="t_n_c" class="txt.field">
+                <label for="t_n_c">Accept Terms and Conditions</label>
+
+            </div>
+            <br>
+
+            <div class="form-line">
+                <textarea name="message" id="message">
+            </textarea>
+            </div>
+
+            <button type="button" class="btn">
+                <i class="fab fa-react"></i> Register
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
