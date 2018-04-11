@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 75px;
+}
+
+.btn {
+    margin-left: 0;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.sendBtn {
+    background: #1bee13;
+    color: #000000
+}
+
+.btn:hover {
+    background-color: #69ee65;
+    color: #000000;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.img {
+    background: url("../images/sea.png");
+}
+
+.font {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    text-align: center;
+}
